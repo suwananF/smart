@@ -25,3 +25,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('event', 'EventController');
+
+
+Route::resource('tcas', 'TcasController');
+Route::resource('tcas', 'TcasController');

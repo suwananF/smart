@@ -1,0 +1,60 @@
+{
+    "fields": [
+        {
+            "name": "title",
+            "type": "string"
+        },
+        {
+            "name": "registration_date",
+            "type": "string"
+        },
+        {
+            "name": "registration_payment_date",
+            "type": "string"
+        },
+        {
+            "name": "reference",
+            "type": "string"
+        },
+        {
+            "name": "candidate_date",
+            "type": "string"
+        },
+        {
+            "name": "interview_date",
+            "type": "date"
+        },
+        {
+            "name": "passed_interview_date",
+            "type": "string"
+        },
+        {
+            "name": "clearing_house_date",
+            "type": "string"
+        },
+        {
+            "name": "chosen_date",
+            "type": "string"
+        },
+        {
+            "name": "pay_first_date",
+            "type": "string"
+        },
+        {
+            "name": "pay_full_date",
+            "type": "string"
+        },
+        {
+            "name": "present_date",
+            "type": "string"
+        },
+        {
+            "name": "first_date",
+            "type": "string"
+        },
+        {
+            "name": "first_date",
+            "type": "string"
+        }
+    ]
+}
