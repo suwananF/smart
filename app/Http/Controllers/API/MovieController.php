@@ -37,7 +37,7 @@ class MovieController extends Controller
                 'title' => $requestData->title,
                 'releaseYear' => $requestData->releaseYear,
                 'image' => $requestData->image,
-            ],
+            ]
         );
 
         return json_encode(['status' => 'success']);
