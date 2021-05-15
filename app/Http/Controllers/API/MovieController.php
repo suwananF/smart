@@ -32,11 +32,11 @@ class MovieController extends Controller
         // Movie::create($requestData);
 
         Movie::firstOrCreate(
-            ['id' => $requestData->id],
+            ['id' => $requestData['id'] ],
             [
-                'title' => $requestData->title,
-                'releaseYear' => $requestData->releaseYear,
-                'image' => $requestData->image,
+                'title' => $requestData['title'],
+                'releaseYear' => $requestData['releaseYear'],
+                'image' => $requestData['image'],
             ]
         );
 
